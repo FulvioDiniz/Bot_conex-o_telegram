@@ -28,7 +28,7 @@ def send_message(token, chat_id, message):
         print("Erro no sendMessage:", e)
 # token único utilizado para manipular o bot (não deve ser compartilhado)
 # exemplo: '1413778757:AAFxmr611LssAHbZn1uqV_NKFsbwK3TT-wc'
-token = '6037164173:AAFWH_Ojc434tGzrkHoZtKIz5FJn_szEOe8'
+token = ''
 
 # id do chat que será enviado as mensagens
 chat_id = last_chat_id(token)
